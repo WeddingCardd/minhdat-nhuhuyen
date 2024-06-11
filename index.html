@@ -1366,9 +1366,15 @@
     </script>
 
     <!-- AUDIO -->
-    <audio
-      src="https://thiepdientu.com.vn/wp-content/uploads/2023/12/Shane-Filan-Beautiful-In-White-Official-Video-1.mp3"
-      controls autoplay id="audio">
+   <audio controls
+    autoplay id="background-music" src="https://thiepdientu.com.vn/wp-content/uploads/2023/12/Shane-Filan-Beautiful-In-White-Official-Video-1.mp3"></audio>
+
+    <script>
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            audio.play();
+        }, { once: true });
+    </script>
 
     </audio>
     <!-- END AUDIO --> <!-- FOOTER -->
