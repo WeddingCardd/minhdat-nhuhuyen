@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit !important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+    font-family: main-font;
+    text-transform: capitalize;
+}
+.uk-card-primary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-card-secondary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-light .uk-nav-default .uk-nav-header, .uk-offcanvas-bar .uk-nav-default .uk-nav-header, .uk-overlay-primary .uk-nav-default .uk-nav-header, .uk-section-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header {
+    color: inherit;
+}
+.uk-nav-divider {
+    border-top: 1px solid rgba(10, 10, 10, 0.189) !important;
+    
+}
+.uk-offcanvas-bar {
+    background-color: white;
+    color: black;
+}
+*+.uk-h1, *+.uk-h2, *+.uk-h3, *+.uk-h4, *+.uk-h5, *+.uk-h6, *+.uk-heading-2xlarge, *+.uk-heading-3xlarge, *+.uk-heading-large, *+.uk-heading-medium, *+.uk-heading-small, *+.uk-heading-xlarge, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+    margin-top: 8px;
+}
+*+address, *+dl, *+fieldset, *+figure, *+ol, *+p, *+pre, *+ul {
+    margin: 0;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-3xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 8px 0;
+}

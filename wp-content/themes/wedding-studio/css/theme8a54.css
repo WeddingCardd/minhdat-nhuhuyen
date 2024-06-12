@@ -1,0 +1,173 @@
+@font-face {
+    font-family: main-font;
+    src: url(https://thiepdientu.com.vn/wp-content/themes/wedding-studio/font/SVN-Gilroy\ Regular.otf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: main-font;
+    src: url(https://thiepdientu.com.vn/wp-content/themes/wedding-studio/font/SVN-Gilroy\ Medium.otf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: main-font;
+    src: url(https://thiepdientu.com.vn/wp-content/themes/wedding-studio/font/SVN-Gilroy\ Bold.otf);
+    font-weight: 700;
+  }
+  :root {
+    --black : #181818 ;
+    --white: #fff;
+    --primary-color : #ec2178;
+    --light-primary: #f35399;
+    --secondary-color : #ec2145;
+
+  }
+
+
+  * {
+    font-family: main-font;
+  }
+  body{
+    font-family: main-font !important;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+  /* THEME */
+a {
+  transition: .3s;
+}
+
+
+.btn {
+    padding: 10px 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-gradient {
+    background-image: linear-gradient(
+        to bottom right ,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+    transition: all 0.4s linear;
+    color: var(--white) !important;
+}
+.btn-gradient:hover {
+    background-image: linear-gradient(
+        to top left ,
+        var(--secondary-color),
+        var(--light-primary),
+        var(--light-primary)
+    );
+    transition: all 0.4s linear;
+}
+.btn-light {
+  background-color: white !important;
+}
+.text-black {
+    color: var(--black) !important;
+}
+.text-white {
+    color: var(--white);
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.text-gradient {
+    background: -webkit-linear-gradient(var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* background */
+.gradient-bg {
+  background: 
+  linear-gradient(
+    to bottom right,
+    var(--primary-color), 
+    var(--secondary-color)
+  )
+}
+.section-bg {
+  background-image: url(../shape/31.html);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.section-bg2 {
+  
+
+}
+.black-bg {
+  background-color: #000000;
+}
+
+.blur-bg {
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.uk-overlay-primary-20 {
+	background: rgba(34, 34, 34, .2);
+}
+.uk-card-default-1 {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: -10px -10px 20px rgba(255,255,255,.8), 10px 10px 20px rgba(0, 0, 0, 0.143);
+}
+.uk-card-default-1:hover {
+  background-color: white;
+  box-shadow: -10px -10px 20px rgba(255,255,255,.8), 2px 2px 2px rgba(0, 0, 0, 0.128);
+}
+
+.uk-checkbox:focus, .uk-input:focus, .uk-radio:focus, .uk-select:focus, .uk-textarea:focus{
+  border-color: var(--primary-color);
+}
+.uk-tab>.uk-active>a {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color);
+}
+/* ANIMATION */
+.ping {
+	-webkit-animation: ping 0.8s ease-in-out infinite both;
+	        animation: ping 0.8s ease-in-out infinite both;
+}
+@-webkit-keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
